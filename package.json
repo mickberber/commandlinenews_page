@@ -8,12 +8,14 @@
     "dev": "webpack-dev-server",
     "prebuild": "rm public/dist/bundle.js",
     "build": "webpack --progress --colors --config webpack.config.prod.js",
+    "build-server": "nodemon server/server.js",
     "lint": "eslint server/**.js; eslint public/**.js; true"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.3",
     "body-parser": "^1.16.1",
     "compression": "^1.6.2",
     "dotenv": "^4.0.0",
