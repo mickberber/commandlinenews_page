@@ -16,6 +16,41 @@ const App = () => {
             Learn More
           </a>
         </button>
+        <br />
+        <div style={{
+          'margin': '20px 0 0 0',
+          'font-size': '30px',
+          'font-weight': 'bold'
+        }}>
+          Supported Services
+        </div>
+        <br />
+        <div className='images'>
+          <img src='./hacker-news.jpg'
+               style={{
+                 heigth: '200px',
+                 width: '200px',
+                 margin: '20px 20px'
+               }} />
+          <img src='./cnn.png'
+               style={{
+                 heigth: '200px',
+                 width: '200px',
+                 margin: '20px 20px'
+               }}/>
+          <img src='./The_Guardian.png'
+               style={{
+                 heigth: '100px',
+                 width: '350px',
+                 margin: '20px 20px'
+               }} />
+          <img src='./ap.png'
+               style={{
+                 heigth: '200px',
+                 width: '200px',
+                 margin: '20px 20px'
+               }} />
+        </div>
       </div>
     </div>
   );
