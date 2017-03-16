@@ -15,6 +15,8 @@ const ImageBank = () => {
          className={styles.imgrect} />
     <img src='./ap.png'
          className={styles.imgsqr} />
+    <img src='./aljaz.jpg'
+         className={styles.imgsqr} />
   </div>);
 }
 
