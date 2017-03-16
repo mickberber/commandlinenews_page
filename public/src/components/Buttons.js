@@ -10,7 +10,7 @@ const Buttons = () => {
     </button>
     <button className={styles.btn}>
       <a className={styles.atag} href='http://github.com/mickberber/commandlinenews'>
-        Learn More
+        Learn how to set up Command Line News
       </a>
     </button>
   </div>);
