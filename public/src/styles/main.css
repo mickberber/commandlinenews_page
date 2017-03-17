@@ -52,6 +52,7 @@ body {
 }
 
 .supported {
+  font-family: ArchivoNarrow;
   margin: 20px 0 0 0;
   font-size: 30px;
   font-weight: bold;
