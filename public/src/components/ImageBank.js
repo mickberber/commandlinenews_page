@@ -2,8 +2,7 @@ import React from 'react';
 import styles from './../styles/main.css';
 
 const ImageBank = () => {
-  return (
-    <div>
+  return (<div>
       <br />
       <img src='https://www.python.org/static/community_logos/python-powered-w.svg'
            className={styles.pyimg} />

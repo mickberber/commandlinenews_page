@@ -1,4 +1,15 @@
-.main {}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+}
+
+@font-face {
+    font-family: ArchivoNarrow;
+    src: url('../../dist/assets/archivo-narrow/ArchivoNarrow-Regular.ttf');
+}
 
 .logo {
   display: block;
@@ -6,7 +17,7 @@
   height: 450px;
   width: 800px;
   border-radius: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .center {
@@ -35,7 +46,7 @@
 .pyimg {
   height: 100px;
   width: 350px;
-  margin: 20px 20px;
+  margin: 0 20px;
   border: 2px solid grey;
   border-radius: 15px;
 }
@@ -61,4 +72,32 @@
   height: 100px;
   width: 350px;
   margin: 20px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: ArchivoNarrow;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+i {
+  color: white;
 }

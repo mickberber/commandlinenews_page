@@ -7,22 +7,15 @@ import {
 
 import { AppContainer } from 'react-hot-loader';
 
-import App from './src/components/app';
-
-const Test = () => {
-  return (
-    <div>
-      balls
-    </div>
-  );
-}
+import App from './src/components/App';
+import Setup from './src/components/Setup';
 
 const render = (Component) => {
   ReactDOM.render(<AppContainer>
     <Router>
       <div>
         <Route exact path='/' component={Component} />
-        <Route path="/test" component={Test}/>
+        <Route path="/setup" component={Setup}/>
       </div>
     </Router>
   </AppContainer>, document.querySelector('.attach'));
