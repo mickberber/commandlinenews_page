@@ -8,12 +8,8 @@ const App = () => {
   return (
     <div className={styles.main}>
       <div className={styles.center}>
-        <img className={styles.logo} src='./logo.png'/>
+        <img className={styles.logo} src='./assets/logo.png'/>
         <Buttons />
-        <br />
-        <img src='https://www.python.org/static/community_logos/python-powered-w.svg'
-             className={styles.pyimg} />
-        <br />
         <ImageBank />
       </div>
     </div>
