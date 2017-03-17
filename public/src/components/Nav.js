@@ -20,6 +20,11 @@ const Nav = () => {
         </Link>
       </li>
       <li>
+        <Link to='/using'>
+          Using CLN <i className="fa fa-terminal" aria-hidden="true"></i>
+        </Link>
+      </li>
+      <li>
         <a href='mailto:commandlinenews@gmail.com'>
           Contact <i className="fa fa-envelope-o" aria-hidden="true"></i>
         </a>

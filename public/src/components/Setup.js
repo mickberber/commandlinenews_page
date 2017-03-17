@@ -11,7 +11,7 @@ const Setup = () => {
       <div className={styles.setup_containter}>
         <h3 className={styles.setup_header}>Download source code:</h3>
         <a href='http://commandlinenews.herokuapp.com/api/root/zip' className={styles.dl}>
-          <button>
+          <button className={styles.setup_button}>
             Download <i id={styles.dlicon} className="fa fa-download" aria-hidden="true"></i>
           </button>
         </a>
@@ -34,8 +34,8 @@ const Setup = () => {
         </p>
         <h3 className={styles.setup_header}>Learn how to use Command Line News:</h3>
         <Link to='/using' className={styles.dl_link}>
-          <button>
-            Using CLN <i id={styles.dlicon} className="fa fa-download" aria-hidden="true"></i>
+          <button className={styles.setup_button}>
+            Using CLN <i id={styles.dlicon} className="fa fa-terminal" aria-hidden="true"></i>
           </button>
         </Link>
       </div>

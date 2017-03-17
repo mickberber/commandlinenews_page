@@ -41,3 +41,26 @@
   color: black;
   padding: 0 5% 0 40%;
 }
+
+.setup_button {
+   border-top: 1px solid #000000;
+   background: #ffffff;
+   padding: 7px 14px;
+   border-radius: 8px;
+   color: #000000;
+   font-size: 19px;
+   font-family: ArchivoNarrow;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.setup_button:hover {
+   border-top-color: #919191;
+   background: #195aff;
+   color: black;
+}
+
+.setup_button:active {
+   border-top-color: #696369;
+   background: #696369;
+}
