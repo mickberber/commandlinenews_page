@@ -32,6 +32,9 @@ const Setup = () => {
             http://www.hostingadvice.com/how-to/set-command-aliases-linuxubuntudebian
           </a>
         </p>
+        <p className={styles.dl}>*Note*</p>
+        <p className={styles.dl}>Command Line News requires Chrome to open</p>
+        <p className={styles.dl}>Hacker News articles</p>
         <h3 className={styles.setup_header}>Learn how to use Command Line News:</h3>
         <Link to='/using' className={styles.dl_link}>
           <button className={styles.setup_button}>

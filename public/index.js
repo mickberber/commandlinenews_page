@@ -9,10 +9,7 @@ import { AppContainer } from 'react-hot-loader';
 
 import App from './src/components/App';
 import Setup from './src/components/Setup';
-
-const Using = () => {
-  return (<div></div>);
-}
+import Using from './src/components/Using';
 
 const render = (Component) => {
   ReactDOM.render(<AppContainer>
@@ -26,10 +23,10 @@ const render = (Component) => {
   </AppContainer>, document.querySelector('.attach'));
 }
 
-render(Setup);
+render(App);
 
 if(module.hot) {
   module.hot.accept('./src/components/App', () => {
-    render(Setup);
+    render(App);
   });
 }

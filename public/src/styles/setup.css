@@ -64,3 +64,18 @@
    border-top-color: #696369;
    background: #696369;
 }
+
+.using_cln_front {
+  width: 400px;
+  padding: 0 0 0 15%;
+}
+
+.using_cln_service_output {
+  width: 400px;
+  padding: 0 0 0 15%;
+}
+
+.using_cln_article {
+  width: 400px;
+  padding: 0 0 0 15%;
+}
