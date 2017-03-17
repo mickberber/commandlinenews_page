@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import styles from './../styles/setup.css';
 
+const scrollToTop = ()  => {
+    window.scrollTo(0,0);
+}
+
 const Using = () => {
-  window.scrollTo(0,0);
+  scrollToTop();
   return (
     <div>
       <Nav />
@@ -23,6 +27,15 @@ const Using = () => {
         <p className={styles.dl}>*Note*</p>
         <p className={styles.dl}>Due to number of sources that HackerNews may link to</p>
         <p className={styles.dl}>HackerNews articles will open in Chrome</p>
+        <a className={styles.dl}
+           style={{
+             marginTop: '10px'
+           }}>
+          <button className={styles.setup_button}
+                  onClick={scrollToTop} >
+            Back To Top <i id={styles.dlicon} className="fa fa-arrow-up" aria-hidden="true"></i>
+          </button>
+        </a>
       </div>
     </div>
   );
