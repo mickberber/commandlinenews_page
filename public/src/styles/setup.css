@@ -1,0 +1,43 @@
+@font-face {
+    font-family: ArchivoNarrow;
+    src: url('../../dist/assets/archivo-narrow/ArchivoNarrow-Regular.ttf');
+}
+
+.header {
+  font-family: ArchivoNarrow;
+  margin: 2% 0 2% 15%;
+}
+
+.setup_containter {
+  font-family: ArchivoNarrow;
+  border: 5px solid black;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  padding-bottom: 2%;
+}
+
+.setup_header {
+  padding: 0 0 0 5%;
+}
+
+.dl {
+  text-decoration: none;
+  color: black;
+  padding: 0 5% 0 40%;
+}
+
+#dlicon {
+  color: black;
+}
+
+.sh_headers {
+  padding: 0 5% 0 30%;
+  text-decoration: underline;
+}
+
+.dl_link {
+  text-decoration: none;
+  color: black;
+  padding: 0 5% 0 40%;
+}

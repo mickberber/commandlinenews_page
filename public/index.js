@@ -10,21 +10,26 @@ import { AppContainer } from 'react-hot-loader';
 import App from './src/components/App';
 import Setup from './src/components/Setup';
 
+const Using = () => {
+  return (<div></div>);
+}
+
 const render = (Component) => {
   ReactDOM.render(<AppContainer>
     <Router>
       <div>
         <Route exact path='/' component={Component} />
         <Route path="/setup" component={Setup}/>
+        <Route path="/using" component={Using}/>
       </div>
     </Router>
   </AppContainer>, document.querySelector('.attach'));
 }
 
-render(App);
+render(Setup);
 
 if(module.hot) {
-  module.hot.accept('./src/components/app', () => {
-    render(App);
+  module.hot.accept('./src/components/App', () => {
+    render(Setup);
   });
 }

@@ -5,6 +5,11 @@ const Nav = () => {
   return (
     <ul>
       <li>
+        <Link to='/'>
+          Home <i className="fa fa-home" aria-hidden="true"></i>
+        </Link>
+      </li>
+      <li>
         <a href='http://commandlinenews.herokuapp.com/api/root/zip'>
           Download <i className="fa fa-download" aria-hidden="true"></i>
         </a>
