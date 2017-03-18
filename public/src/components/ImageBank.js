@@ -35,6 +35,10 @@ const ImageBank = () => {
           <img src='./assets/aljaz.jpg'
                className={styles.imgsqr} />
         </a>
+        <a href='https://www.nytimes.com/'>
+          <img src='./assets/NYTLogo.jpg'
+               className={styles.imgrectnyt} />
+        </a>
       </div>
     </div>);
 }
