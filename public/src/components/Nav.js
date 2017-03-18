@@ -34,6 +34,11 @@ const Nav = () => {
           Github <i className="fa fa-github" aria-hidden="true"></i>
         </a>
       </li>
+      <li>
+        <a href='https://www.twitter.com/commandlinenews'>
+          Twitter <i className="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
     </ul>
   );
 }
