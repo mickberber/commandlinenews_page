@@ -26,6 +26,10 @@ const Setup = () => {
         <p className={styles.dl}>open: `.zshrc`</p>
         <p className={styles.dl}>add `alias cln='/PATH/TO/REPOSITORY/clnews.py'`</p>
         <p className={styles.dl}>run `source .zshrc`</p>
+        <h3 className={styles.sh_headers}>Edit path in .clnews.py on line 6:</h3>
+        <p className={styles.dl}>
+          sys.path.append('PATH_TO_REPOSITORY/services')
+        </p>
         <h3 className={styles.sh_headers}>More information about aliases:</h3>
         <p className={styles.dl}>
           <a href='http://www.hostingadvice.com/how-to/set-command-aliases-linuxubuntudebian'>
