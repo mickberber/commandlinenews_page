@@ -84,6 +84,7 @@ body {
 ul {
     list-style-type: none;
     margin: 0 0;
+    padding-left: 25px;
     overflow: hidden;
     background-color: black;
     font-family: ArchivoNarrow;
