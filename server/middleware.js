@@ -25,4 +25,6 @@ module.exports = (app, express) => {
 
   app.use('/', express.static(path.join(__dirname, '../public/dist')));
   app.use(express.static(path.join(__dirname, '../public/dist')));
+
+  app.get('*', (req, res) => { res.redirect('/'); });
 }
