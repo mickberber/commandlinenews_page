@@ -19,17 +19,17 @@ const Setup = () => {
         <p className={styles.dl}>git clone https://github.com/mickberber/pystuff.git</p>
         <h3 className={styles.setup_header}>Set Alias in your config file:</h3>
         <h3 className={styles.sh_headers}>Bash:</h3>
-        <p className={styles.dl}>open: `.bashrc`</p>
-        <p className={styles.dl}>add `alias cln='/PATH/TO/REPOSITORY/clnews.py'`</p>
-        <p className={styles.dl}>run `source .bashrc`</p>
+        <p className={styles.dl}>open => `.bashrc`</p>
+        <p className={styles.dl}>add => `alias cln='/PATH/TO/REPOSITORY/clnews.py'`</p>
+        <p className={styles.dl}>run => `$ source .bashrc`</p>
         <h3 className={styles.sh_headers}>Zsh:</h3>
-        <p className={styles.dl}>open: `.zshrc`</p>
-        <p className={styles.dl}>add `alias cln='/PATH/TO/REPOSITORY/clnews.py'`</p>
-        <p className={styles.dl}>run `source .zshrc`</p>
-        <h3 className={styles.sh_headers}>Edit path in .clnews.py on line 6:</h3>
-        <p className={styles.dl}>
-          sys.path.append('PATH_TO_REPOSITORY/services')
-        </p>
+        <p className={styles.dl}>open => `.zshrc`</p>
+        <p className={styles.dl}>add => `alias cln='/PATH/TO/REPOSITORY/clnews.py'`</p>
+        <p className={styles.dl}>run => `$ source .zshrc`</p>
+        <h3 className={styles.sh_headers}>Create `keys.py` and add path:</h3>
+        <p className={styles.dl}>run => `$ touch keys.py`</p>
+        <p className={styles.dl}>Inside of keys.py, add a PATH variable equal to the path to your repository:</p>
+        <p className={styles.dl}>ex. PATH='PATH_TO_REPOSITORY'</p>
         <h3 className={styles.sh_headers}>More information about aliases:</h3>
         <p className={styles.dl}>
           <a href='http://www.hostingadvice.com/how-to/set-command-aliases-linuxubuntudebian'>
