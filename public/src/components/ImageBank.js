@@ -39,6 +39,10 @@ const ImageBank = () => {
           <img src='./assets/NYTLogo.jpg'
                className={styles.imgrectnyt} />
         </a>
+        <a href='https://www.washingtonpost.com/'>
+          <img src='./assets/wp.jpg'
+               className={styles.imgsqr} />
+        </a>
       </div>
     </div>);
 }
