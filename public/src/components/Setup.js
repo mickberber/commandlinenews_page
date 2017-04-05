@@ -16,7 +16,7 @@ const Setup = () => {
           </button>
         </a>
         <h3 className={styles.setup_header}>Or clone from Github:</h3>
-        <p className={styles.dl}>git clone https://github.com/mickberber/pystuff.git</p>
+        <p className={styles.dl}>git clone https://github.com/mickberber/commandlinenews.git</p>
         <h3 className={styles.setup_header}>Set Alias in your config file:</h3>
         <h3 className={styles.sh_headers}>Bash:</h3>
         <p className={styles.dl}>open => `.bashrc`</p>
