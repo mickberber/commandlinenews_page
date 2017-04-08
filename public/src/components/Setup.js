@@ -10,7 +10,7 @@ const Setup = () => {
       <h1 className={styles.header}>Setup Command Line News:</h1>
       <div className={styles.setup_containter}>
         <h3 className={styles.setup_header}>Download source code:</h3>
-        <a href='http://commandlinenews.herokuapp.com/api/root/zip' className={styles.dl}>
+        <a href='http://bit.ly/2oTFpPE' className={styles.dl}>
           <button className={styles.setup_button}>
             Download <i id={styles.dlicon} className="fa fa-download" aria-hidden="true"></i>
           </button>

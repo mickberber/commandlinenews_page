@@ -10,7 +10,7 @@ const Nav = () => {
         </Link>
       </li>
       <li>
-        <a href='http://commandlinenews.herokuapp.com/api/root/zip'>
+        <a href='http://bit.ly/2oTFpPE'>
           Download <i className="fa fa-download" aria-hidden="true"></i>
         </a>
       </li>
